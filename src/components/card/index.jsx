@@ -15,5 +15,4 @@ function Card({ title, img, id }) {
     </div>
   );
 }
-
 export default Card;
