@@ -2,7 +2,6 @@ import { createContext, useContext, useState, useEffect } from 'react';
 const ThemeContext = createContext();
 const ThemeProvider = ({ children }) => {
   const initialTheme = () => localStorage.getItem('CODING_SAMURAI_THEME');
-
   const [theme, setTheme] = useState(initialTheme);
   const toggleTheme = () =>
     setTheme((theme) => {
