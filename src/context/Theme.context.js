@@ -26,7 +26,6 @@ const ThemeProvider = ({ children }) => {
     </ThemeContext.Provider>
   );
 };
-
 export default function useTheme() {
   const context = useContext(ThemeContext);
   if (context === undefined) {
