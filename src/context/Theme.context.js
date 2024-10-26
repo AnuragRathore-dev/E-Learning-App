@@ -8,7 +8,7 @@ const ThemeProvider = ({ children }) => {
       if (theme === 'light-theme') return 'dark-theme';
       if (theme === 'dark-theme') return 'light-theme';
       return 'dark-theme';
-    });
+    }); 
   useEffect(() => {
     localStorage.setItem('CODING_NINJASA_PROJECT_THEME', theme);
     if (theme === 'dark-theme') {
