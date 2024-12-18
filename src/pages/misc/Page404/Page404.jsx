@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import style from "./Page404.module.css";
 
 import { useLocation, useNavigate } from "react-router-dom";
